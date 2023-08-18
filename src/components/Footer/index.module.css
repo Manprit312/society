@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;1,200;1,300;1,400;1,500&display=swap");
+.navigate {
+  display: block;
+  padding: 10px 10px;
+  font-size: 14px;
+  line-height: 26px;
+  color: #435966;
+  text-decoration: none;
+}
+.hovermenu {
+  font-family: "Poppins", sans-serif !important;
+  font-size: 14px !important;
+  border: none !important;
+  cursor: pointer;
+
+}
+.MuiAccordion-root{border:none}
+.hovermenu:hover{background-color: #ffffff;}
+.footermenu {
+  background: #ffffff;
+  margin-bottom: 0 !important;
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #435966;
+}
+.iconsbox {
+  font-size: 14px;
+  line-height: 26px;
+  display: flex;
+  font-family: "Poppins", sans-serif !important;
+  justify-content: center;
+  align-items: center;
+  color: #435966;
+}
+.iconsbox:hover {
+  color: #304ffe;
+}
+.footer {
+  height: 47px;
+  border-bottom: 2px solid #efefef;
+}
+@media (max-width: 1050px) {
+  .footer {
+    display: none;
+  }
+}
